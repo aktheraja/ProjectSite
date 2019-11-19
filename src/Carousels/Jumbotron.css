@@ -1,0 +1,10 @@
+#Content {
+    padding-top: 200px;
+}
+.jumbotron {
+    background-image: url("../Images/1.jpg");
+    color: white;
+    position: relative;
+    min-height: 530px;
+
+}
