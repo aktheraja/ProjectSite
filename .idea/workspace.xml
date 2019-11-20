@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cd81b27-9c2c-471f-87c2-4127fb525297" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Carousels/Jumbotron.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Carousels/Jumbotron.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/cloud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/devops.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/opeartions.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/Services.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Carousels/Jumbotron.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Carousels/Jumbotron.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Carousels/Jumbotron.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Carousels/Jumbotron.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nav/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/services.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +33,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Carousels" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -40,8 +42,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projectsite\src\Carousels" />
       <recent name="C:\projectsite\src\Images" />
+      <recent name="C:\projectsite\src\Carousels" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projectsite\src\Carousels" />
@@ -85,8 +87,16 @@
       <option name="presentableId" value="Default" />
       <updated>1574121047481</updated>
       <workItem from="1574121050072" duration="1062000" />
-      <workItem from="1574122158201" duration="20398000" />
+      <workItem from="1574122158201" duration="30441000" />
     </task>
+    <task id="LOCAL-00001" summary="updated">
+      <created>1574207473190</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574207473190</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,5 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>

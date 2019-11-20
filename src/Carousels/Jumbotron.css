@@ -3,8 +3,6 @@
 }
 .jumbotron {
     background-image: url("../Images/1.jpg");
-    color: white;
-    position: relative;
+    color: bisque;
     min-height: 530px;
-
 }
