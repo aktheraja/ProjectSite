@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import './App.css';
 import Nav from './Nav/Nav'
-import Home from './Carousels/Jumbotron'
-import Services from './Services/services';
-
+import Home from './Jumbotron/Jumbotron'
+import Services from './Services/Services';
+import About from './About/about';
 class App extends Component{
   render() {
     return (
@@ -11,6 +11,7 @@ class App extends Component{
        <Nav />
        <Home />
        <Services/>
+       <About/>
         </div>
     );
   }
