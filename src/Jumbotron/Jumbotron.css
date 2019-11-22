@@ -1,8 +1,9 @@
 #Content {
-    padding-top: 200px;
+    padding-top: 53px;
 }
 .jumbotron {
-    background-image: url("../Images/1.jpg");
-    color: bisque;
-    min-height: 530px;
+    background-image: url("../Images/home.jpg");
+    color: white;
+    min-height: 650px;
+    background-size: auto 100%;
 }

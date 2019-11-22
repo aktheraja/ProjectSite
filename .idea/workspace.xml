@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cd81b27-9c2c-471f-87c2-4127fb525297" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/About/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/About/about.js" afterDir="false" />
+    <list default="true" id="6cd81b27-9c2c-471f-87c2-4127fb525297" name="Default Changelist" comment="updated 2">
+      <change afterPath="$PROJECT_DIR$/src/Contact/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Contact/Contacts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/home.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/About/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/About/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/About/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/About/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Carousels/Jumbotron.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jumbotron/Jumbotron.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Carousels/Jumbotron.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jumbotron/Jumbotron.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jumbotron/Jumbotron.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jumbotron/Jumbotron.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jumbotron/Jumbotron.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jumbotron/Jumbotron.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/Services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +49,12 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projectsite\src\Images" />
-      <recent name="C:\projectsite\src\Carousels" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projectsite\src" />
+      <recent name="C:\projectsite\src\Carousels" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projectsite\src\Images" />
       <recent name="C:\projectsite\src\Carousels" />
     </key>
   </component>
@@ -84,7 +96,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574121047481</updated>
       <workItem from="1574121050072" duration="1062000" />
-      <workItem from="1574122158201" duration="37416000" />
+      <workItem from="1574122158201" duration="53970000" />
+      <workItem from="1574350924160" duration="23444000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1574207473190</created>
@@ -100,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574218205629</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated 2">
+      <created>1574225393758</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574225393758</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="updated 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated 2" />
   </component>
 </project>

@@ -1,4 +1,8 @@
 .Services li {
     padding-left:0;
     text-align: left;
+    background-color: whitesmoke;
+}
+.Services{
+margin: 0 auto;
 }
