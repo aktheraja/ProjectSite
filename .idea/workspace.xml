@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cd81b27-9c2c-471f-87c2-4127fb525297" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/actions/forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/About/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/About/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contact/Contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contact/Contacts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/About/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/about/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/About/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/about/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contact/Contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact/Contacts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jumbotron/Jumbotron.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/jumbotron/Jumbotron.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jumbotron/Jumbotron.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/jumbotron/Jumbotron.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/Services.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,10 +43,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -81,7 +101,7 @@
       <updated>1574121047481</updated>
       <workItem from="1574121050072" duration="1062000" />
       <workItem from="1574122158201" duration="53970000" />
-      <workItem from="1574350924160" duration="28538000" />
+      <workItem from="1574350924160" duration="45156000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1574207473190</created>
@@ -111,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574395608064</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="contact page added">
+      <created>1574431320504</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574431320504</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +163,7 @@
     <MESSAGE value="updated 2" />
     <MESSAGE value="updated 3" />
     <MESSAGE value="about page added" />
-    <option name="LAST_COMMIT_MESSAGE" value="about page added" />
+    <MESSAGE value="contact page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact page added" />
   </component>
 </project>
