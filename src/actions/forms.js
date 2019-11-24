@@ -2,8 +2,11 @@ import ADD_FORM from './types';
 import axios from 'axios';
 //ADD FORM
 const add_form=(form)=>dispatch=>{
-   axios.post(`http://127.0.0.1:8000/api/lead/`,form)
+
+   const b= JSON.stringify(form)
+   axios.post("https://w4xdgnd5sa.execute-api.us-west-2.amazonaws.com/Dev/Employee",b)
        .then(res=>{
+           console.log(res)
             dispatch({
                 type:ADD_FORM,
                 payload:res.data

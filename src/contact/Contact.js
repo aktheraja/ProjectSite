@@ -16,6 +16,9 @@ state = {
 static propTypes = {
     add_form:PropTypes.func.isRequired
 }
+
+
+
 onChange = (e)=>{this.setState({[e.target.name]:e.target.value})};
 onSubmit =(e)=>{
         e.preventDefault();
@@ -25,7 +28,9 @@ this.props.add_form(form);
 }
 
     render() {
+
       const {name,email,message}=this.state;
+
         return(
 <div className="container-fluid2">
     <div className="container">
@@ -46,12 +51,8 @@ this.props.add_form(form);
                                 We'll never share your email with anyone else.
                             </Form.Text>
                         </Form.Group>
-                        {/*<Form.Group controlId="formBasicSubject">*/}
-                        {/*    <Form.Label>Subject</Form.Label>*/}
-                        {/*    <Form.Control name= "subject" type="subject" placeholder="Enter Subject" value={subject} onChange={this.onChange}/>*/}
-                        {/*</Form.Group>*/}
                         <Form.Group controlId="exampleForm.ControlTextarea1">
-                            <Form.Label>Text</Form.Label>
+                            <Form.Label>Message</Form.Label>
                             <Form.Control name="message" type="textarea" as="textarea" rows="3" placeholder="Enter Text" value={message} onChange={this.onChange}/>
                         </Form.Group>
                         <Button variant="primary" type="submit">
