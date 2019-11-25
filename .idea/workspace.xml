@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cd81b27-9c2c-471f-87c2-4127fb525297" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dynamoDB_lambda_apiGateway/text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modal/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modal/modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/about/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/about/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/forms.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jumbotron/Jumbotron.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/jumbotron/Jumbotron.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modal/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Services.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +36,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -101,7 +102,7 @@
       <workItem from="1574350924160" duration="47183000" />
       <workItem from="1574456020302" duration="1166000" />
       <workItem from="1574459640729" duration="9831000" />
-      <workItem from="1574570937315" duration="9588000" />
+      <workItem from="1574570937315" duration="20882000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1574207473190</created>
@@ -145,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574453076009</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="modal added">
+      <created>1574628463275</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574628463275</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +180,7 @@
     <MESSAGE value="about page added" />
     <MESSAGE value="contact page added" />
     <MESSAGE value="redux added" />
-    <option name="LAST_COMMIT_MESSAGE" value="redux added" />
+    <MESSAGE value="modal added" />
+    <option name="LAST_COMMIT_MESSAGE" value="modal added" />
   </component>
 </project>

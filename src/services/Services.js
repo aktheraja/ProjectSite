@@ -6,7 +6,7 @@ import Cloud3 from '../Images/opeartions.jpg';
 import './Services.css'
 const services =()=>{
     return (
-        <Container className="Services">
+        <Container className="Services" id="service">
             <h1>SERVICES</h1>
         <CardDeck >
             <Card>

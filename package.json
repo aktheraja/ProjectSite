@@ -49,6 +49,7 @@
   },
   "devDependencies": {
     "aws-sdk": "^2.578.0",
-    "http-proxy-middleware": "^0.20.0"
+    "http-proxy-middleware": "^0.20.0",
+    "prop-types": "^15.5.7"
   }
 }

@@ -4,7 +4,7 @@ import  './Jumbotron.css';
 const jumbotron =(props)=>{
     return(
 <div className="Content">
-        <div className="container-full-bg">
+        <div className="container-full-bg" id="home">
         <Jumbotron>
             <Container>
                 <h1>LEADERS IN CLOUD DEVELOPMENT AND INFRASTRUCTURE</h1>

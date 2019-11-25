@@ -7,17 +7,20 @@ import './Contacts.css';
 import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 import add_form from '../actions/forms';
+import MyVerticallyCenteredModal from '../modal/modal';
+import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
+import Modal from 'react-bootstrap/Modal';
 class Contact extends Component{
 state = {
     name:"",
     email:"",
-    message:" "
+    message:" ",
+    modalState:false
 }
-static propTypes = {
-    add_form:PropTypes.func.isRequired
+    static propTypes = {
+    add_form:PropTypes.func.isRequired,
+    forms:PropTypes.array.isRequired
 }
-
-
 
 onChange = (e)=>{this.setState({[e.target.name]:e.target.value})};
 onSubmit =(e)=>{
@@ -25,15 +28,31 @@ onSubmit =(e)=>{
     const {name,email,message}=this.state;
     const form = {name,email,message};
 this.props.add_form(form);
+this.setState({modalState:true})
 }
 
+closeModal =()=>{
+    this.setState({modalState:false})
+}
     render() {
-
+   const modal = this.state.modalState? (
+            <Modal.Dialog>
+                <Modal.Header closeButton>
+                    <Modal.Title>Thnak you</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <p>Thank you for your Inquiry.</p>
+                </Modal.Body>
+                <Modal.Footer>
+                    <Button variant="danger" onClick={this.closeModal}>Close</Button>
+                </Modal.Footer>
+            </Modal.Dialog>
+        ):null;
       const {name,email,message}=this.state;
-
         return(
-<div className="container-fluid2">
+<div className="container-fluid2" id="contact">
     <div className="container">
+        <div className="container-fluid my-5">{modal}</div>
             <Row>
                 <div className="inquiry">
                 <Col >
@@ -42,7 +61,6 @@ this.props.add_form(form);
                         <Form.Group controlId="formBasicName">
                             <Form.Label>Name</Form.Label>
                             <Form.Control name="name" type="name" placeholder="Enter Name" value={name} onChange={this.onChange}/>
-
                         </Form.Group>
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label>Email</Form.Label>
@@ -60,7 +78,17 @@ this.props.add_form(form);
                         </Button>
                     </Form>
                 </Col>
-                </div>
+                </div>{    function App() {
+                const [modalShow, setModalShow] = React.useState(false);
+                return( <ButtonToolbar>
+                    <Button variant="primary" onClick={() => setModalShow(true)}>
+                        Launch vertically centered modal
+                    </Button>
+                    <MyVerticallyCenteredModal
+                        show={modalShow}
+                        onHide={() => setModalShow(false)}
+                    />
+                </ButtonToolbar>)}}
                 <div>
                 <Col>
                     <div className="Address">
@@ -71,9 +99,14 @@ this.props.add_form(form);
                 </Col>
                 </div>
             </Row>
+
 </div>
 </div>
         )
     }
 }
-export default connect(null,{add_form})(Contact);
+
+const mapStateToProps=state=>{return({
+    forms:state.form.forms
+})}
+export default connect(mapStateToProps,{add_form})(Contact);

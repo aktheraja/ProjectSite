@@ -6,7 +6,7 @@ import './about.css';
 import 'media-queries';
 const about = ()=>{
     return(
-        <div className="container">
+        <div className="container" id="about">
             <Row>
                 <Col className="xs">
                     <h1>ABOUT</h1>
