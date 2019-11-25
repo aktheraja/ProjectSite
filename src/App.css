@@ -1,12 +1,10 @@
 .App {
   text-align: center;
   background-image: url("./Images/background.png");
-  /*background-size: 100%;*/
 
-  /*background-repeat: no-repeat;*/
-  /*background-position-y: bottom;*/
-  /*margin-top: -100px;*/
-  /*margin-left: -100px;*/
+}
+html {
+  scroll-behavior: smooth;
 }
 
 .App-logo {

@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6cd81b27-9c2c-471f-87c2-4127fb525297" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/about/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/about/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/forms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamoDB_lambda_apiGateway/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jumbotron/Jumbotron.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/jumbotron/Jumbotron.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modal/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/Services.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -102,7 +98,10 @@
       <workItem from="1574350924160" duration="47183000" />
       <workItem from="1574456020302" duration="1166000" />
       <workItem from="1574459640729" duration="9831000" />
-      <workItem from="1574570937315" duration="20882000" />
+      <workItem from="1574570937315" duration="21036000" />
+      <workItem from="1574652046062" duration="100000" />
+      <workItem from="1574652164598" duration="68000" />
+      <workItem from="1574652257307" duration="1937000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1574207473190</created>
@@ -153,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574628463275</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="modal added">
+      <created>1574649586499</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574649586499</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

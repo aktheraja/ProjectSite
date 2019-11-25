@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import './Contacts.css';
 import {connect} from 'react-redux';
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types/prop-types.min';
 import add_form from '../actions/forms';
 import MyVerticallyCenteredModal from '../modal/modal';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
@@ -36,18 +36,19 @@ closeModal =()=>{
 }
     render() {
    const modal = this.state.modalState? (
-            <Modal.Dialog>
-                <Modal.Header closeButton>
-                    <Modal.Title>Thnak you</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                    <p>Thank you for your Inquiry.</p>
-                </Modal.Body>
-                <Modal.Footer>
-                    <Button variant="danger" onClick={this.closeModal}>Close</Button>
-                </Modal.Footer>
-            </Modal.Dialog>
+       <div className="container">
+           <Modal show={this.state.modalState} onHide={this.closeModal}>
+               <Modal.Header closeButton>
+                   <Modal.Title>Thank you</Modal.Title>
+               </Modal.Header>
+               <Modal.Body>
+                   <h5>Thank you for submitting your inquiry</h5>
+               </Modal.Body>
+           </Modal>
+
+       </div>
         ):null;
+
       const {name,email,message}=this.state;
         return(
 <div className="container-fluid2" id="contact">

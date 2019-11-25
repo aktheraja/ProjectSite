@@ -6,7 +6,7 @@ const footer =()=>{
 
         <div className="nav-bar-footer container">
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="bottom">
-                <Navbar.Brand href="#home">Company Logo</Navbar.Brand>
+                <Navbar.Brand href="#home">Company</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
