@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cd81b27-9c2c-471f-87c2-4127fb525297" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +98,7 @@
       <workItem from="1574570937315" duration="21036000" />
       <workItem from="1574652046062" duration="100000" />
       <workItem from="1574652164598" duration="68000" />
-      <workItem from="1574652257307" duration="4469000" />
+      <workItem from="1574652257307" duration="4971000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1574207473190</created>
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574690744355</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated">
+      <created>1574781662275</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574781662276</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,13 +191,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updated" />
     <MESSAGE value="updated 2" />
     <MESSAGE value="updated 3" />
     <MESSAGE value="about page added" />
     <MESSAGE value="contact page added" />
     <MESSAGE value="redux added" />
     <MESSAGE value="modal added" />
-    <option name="LAST_COMMIT_MESSAGE" value="modal added" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>
