@@ -1,7 +1,7 @@
 {
   "name": "projectsite",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "proxy": "https://w4xdgnd5sa.execute-api.us-west-2.amazonaws.com/Dev",
   "homepage": "https://aktheraja.github.io/ProjectSite",
   "dependencies": {
